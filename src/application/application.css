@@ -1,0 +1,48 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.btn {
+	-fx-background-color: #e53935;
+	-fx-border-color: #FF7043;
+	-fx-border-width: 2px;
+	-fx-text-fill: #FFD54F;
+	-fx-border-radius: 10 10 10 10;
+	-fx-background-radius: 10 10 10 10;
+	-fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 8, 0, 0, 0);
+}
+
+.btn:hover {
+	-fx-background-color: #d32f2f;
+	-fx-border-color: #E64A19;
+	-fx-border-width: 2px;
+	-fx-text-fill: #FFB300;
+	-fx-border-radius: 10 10 10 10;
+	-fx-background-radius: 10 10 10 10;
+	-fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 5, 0, 0, 0);
+
+}
+
+
+
+.root {
+	-fx-background-color: #d32f2f;
+
+}
+
+.input {
+	-fx-background-color: #b71c1c;
+	-fx-border-color: #E64A19;
+	-fx-border-width: 2px;
+	-fx-text-fill: #FFD54F;
+	-fx-border-radius: 10 10 10 10;
+	-fx-background-radius: 10 10 10 10;
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+.label {
+	-fx-background-color: #d32f2f;
+	-fx-border-color: #ef5350;
+	-fx-border-width: 2px;
+	-fx-text-fill: #E65100;
+	-fx-border-radius: 10 10 10 10;
+  	-fx-background-radius: 10 10 10 10;
+}
